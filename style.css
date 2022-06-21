@@ -1,0 +1,60 @@
+body {
+    background: rgb(206, 208, 231);
+    width: 940px;
+    margin: 0 auto;
+    
+    
+}
+
+.menu-dados {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.fotocv {
+	width: 120px;
+	float: right;
+	margin: 10px 30px 30px 20px;
+    transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+
+h1 {
+    padding: 1em ;
+    background: #2a0bdb5f;
+    margin: auto;
+    text-align: center;
+    
+}
+
+h2, i {
+    text-transform: uppercase;
+}
+
+
+h1:hover, h2:hover {
+	color: #2f23cc;
+	text-decoration: underline;
+    transition: 3s; 
+}
+
+
+ul, h2, i {
+    animation-duration: 6s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-top: 50%;
+      width: 200%
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 200%;
+    }
+  }
